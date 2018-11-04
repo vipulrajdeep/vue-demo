@@ -1,0 +1,23 @@
+{
+  "name": "vue-demo",
+  "version": "1.0.0",
+  "description": "Sample application with vue js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vipulrajdeep/vue-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vipulrajdeep/vue-demo/issues"
+  },
+  "homepage": "https://github.com/vipulrajdeep/vue-demo#readme",
+  "dependencies": {
+    "@vue/cli": "^3.1.1",
+    "@vue/cli-service-global": "^3.1.2"
+  }
+}
