@@ -4,13 +4,16 @@
   "private": true,
   "scripts": {
     "prestart": "sh ./install.sh",
-    "start": "vue-cli-service serve",
+    "http-server": "http-server dist",
+    "start": "npm run http-server",
+    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "http-server": "^0.11.1",
     "vue": "^2.5.17",
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^7.0.0",
