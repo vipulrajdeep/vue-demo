@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "prestart": "sh ./install.sh",
+    "preinstall": "sh ./install.sh",
     "http-server": "http-server dist",
     "start": "npm run http-server",
     "serve": "vue-cli-service serve",
